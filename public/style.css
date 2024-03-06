@@ -1,0 +1,143 @@
+:root{
+    --linear-gradiant:--linear-gradient(90deg, #8e86b5, #acaeed);
+}
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+}
+
+
+/*header*/
+nav ul li{
+    display: inline;
+    margin: 60px;
+    padding-top: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: rgb(34, 36, 37);
+    position: absolute;
+    top: 30px;
+    margin-left: -180px;
+}
+
+li a:hover{
+    color: #5c5a5a;
+    font-weight: 400;
+}
+
+header{
+    position: fixed;
+    background-color: #d3cfcf;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    padding: 20px; 
+    width: 100%;
+
+}
+#logo{
+    margin-left: 120px;
+}
+
+/*body - section*/
+
+p{
+font-size: 1em;
+}
+h1{
+    font-size: 1.9em;
+    color: rgb(42, 211, 223);
+    
+}
+.first-section{
+    background-color:#1f2039 ;
+    color: #d3cfcf;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    padding: 35vh;
+}
+.container{
+    width: 50%;
+}
+button{
+    font-size: 1em;
+    text-transform: uppercase;
+    line-height: 2em;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 1em;
+    padding: .5px 0 0;
+    background-color: rgb(42, 211, 223);
+    text-decoration: none;
+    color: #1f2039;
+    font-weight: 600;
+}
+/* button:hover{
+    background-color: #d3cfcf;
+    color: #1f2039;
+} */
+h2{
+    text-align: center;
+    margin:20px;
+}
+.projet{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+.btn-link{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.image{
+    margin-left: 40px;
+}
+
+/*footer*/
+
+footer{
+    background-color:#1f2039 ;  
+
+}
+footer>h2{
+    color: #d3cfcf;
+    padding: 15px;
+}
+input{
+    background-color: transparent;
+    border-color:#5c5a5a;
+    width: 250px;
+    height: 38px;
+    border-radius: 5px;
+}
+textarea{
+    margin-top: 15px;
+    background-color: transparent;
+    border-color:#5c5a5a;
+    border-radius: 5px;
+}
+::placeholder{
+    color: #d3cfcf ;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+/* media queries */
